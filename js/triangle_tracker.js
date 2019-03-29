@@ -1,7 +1,6 @@
 function myFunction() {
   var triangle= document.getElementById("sideOne","sideTwo","sideThree").value;
-  var text;
-//var triangle = function(sideOne, sideTwo, sideThree){
+  var text;{
   if (isTriangle(sideOne, sideTwo, sideThree)) {
     return triangleType(sideOne, sideTwo, sideThree)
   } else {
