@@ -16,7 +16,5 @@ var triangleType = function(sideOne, sideTwo, sideThree){
     text= "scalene triangle";
   }
 };
-
-
 document.getElementById("feedback").innerHTML = text;
 }
