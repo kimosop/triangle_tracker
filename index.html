@@ -2,7 +2,7 @@
 <html>
 <head>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src=""></script>
+  <script src="s/jquery-1.11.2.js"></script>
   <script src="js/triangle_tracker.js"></script>
   <title>Triangle Tracker Project</title>
 </head>
@@ -21,10 +21,10 @@
                       <label for="sideThree">Side Three:</label>
                       <input id="sideThree" type="text">
                   </div>
-                  <button type="submit" class="submit">Click to find out the Triangle type</button>
+                  <button type="button" onclick="myFunction()">Click to find out the Triangle type</button>
                 </form>
               </div>
-              <p id="result"></p>
+              <p id="feedback"></p>
           
         </div>
       </div>
