@@ -7,20 +7,24 @@
   <title>Triangle Tracker Project</title>
 </head>
 <body>
-    <div class="container">
+    <div class="form-container">
         <div class="row">
-          <div class="col-sm-3">
             <h1>Triangle Tracker</h1>
-            <div class="jumbotron">
+            <div class="triangle-form">
                 <form id="triangle">
-                  <div class="form-group">
-                    
+                  <div class="forms">
+                      <label for="sideOne">Side One:</label>
+                      <input id="sideOne" type="text"><br>
+                      <label for="sideTwo">Side Two:</label>
+                      <input id="sideTwo" type="text"><br>
+                      <label for="sideThree">Side Three:</label>
+                      <input id="sideThree" type="text">
                   </div>
-                  <button type="submit" class="btn btn-sm btn-primary">Click to find out the Triangle type</button>
+                  <button type="submit" class="submit">Click to find out the Triangle type</button>
                 </form>
               </div>
               <p id="result"></p>
-          </div>
+          
         </div>
       </div>
   
